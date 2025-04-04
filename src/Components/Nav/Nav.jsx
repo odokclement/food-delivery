@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
+import PropTypes from 'prop-types';
 import './Nav.css'
 import {assets} from '../../assets/assets'
 import { Link } from 'react-router-dom';
@@ -26,5 +27,8 @@ const Nav = ({setShowLogin}) => {
     </div>
   )
 }
+Nav.propTypes = {
+    setShowLogin: PropTypes.func.isRequired,
+};
 
-export default Nav
+export default Nav;
