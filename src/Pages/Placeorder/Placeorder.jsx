@@ -1,11 +1,6 @@
-import React from 'react'
-import './Placeorder.css'
+import "./Placeorder.css";
 const Placeorder = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default Placeorder
+export default Placeorder;
