@@ -1,4 +1,4 @@
-# Food Delivery App
+## Food Delivery App
 
 A modern food delivery web application built with React and Vite.
 
